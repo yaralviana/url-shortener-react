@@ -27,4 +27,5 @@ transition: background-color, transform 0.5s;
 
 .error .link:hover{
     background-color: #fff;
+    transform: scale(1.05);
 }

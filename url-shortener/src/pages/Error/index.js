@@ -1,5 +1,5 @@
-import "./error.css";
-import { Link } from "react-router-dom";
+import "./error.css"
+import { Link } from "react-router-dom"
 
 export default function Admin() {
   return (
@@ -10,5 +10,5 @@ export default function Admin() {
         Voltar para pagina inicial
       </Link>
     </div>
-  );
+  )
 }
