@@ -1,3 +1,10 @@
+import "./logo.css"
+import { Link } from "react-router-dom"
+
 export function Logo() {
-  return <h1>URLize</h1>
+  return (
+    <Link to="/">
+      <h1 className="logo">URLize</h1>
+    </Link>
+  )
 }
